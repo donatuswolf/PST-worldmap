@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>D3 World Map Template | TechSlides</title>
+<style>
+.country:hover{
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+.text{
+  font-size:10px;
+  text-transform:capitalize;
+}
+#container {
+  margin:10px 10%;
+  border:2px solid #000;
+  border-radius: 5px;
+  height:100%;
+  overflow:hidden;
+  background: #F0F8FF;
+}
+.hidden { 
+  display: none; 
+}
+div.tooltip {
+  color: #222; 
+  background: #fff; 
+  padding: .5em; 
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px; 
+  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+  opacity: 0.9; 
+  position: absolute;
+}
+.graticule {
+  fill: none;
+  stroke: #bbb;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+.equator {
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+</style>
+</head>
+<body>
+
+  <h1>World Map Template with D3.js</h1>
+  <p>Responsive D3 World Map with zoom and pan limits, graticule and equator lines, optimized TopoJSON with country names and colors, geo translation functions, geo coordinate plotting functions for points and text, and much more.  For a full list of features, please go <a href="http://techslides.com/d3-map-starter-kit/">back to article</a>.</p>
+
+
+  <div id="container"></div>
+
+<script src="js/d3.min.js"></script>
+<script src="js/topojson.v1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
