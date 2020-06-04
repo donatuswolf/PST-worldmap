@@ -81,18 +81,10 @@ function draw(topo) {
       // console.log(d.properties)
       return d.properties.name;
     })
+    .attr("stroke", "black")
+    .attr("stroke-width", "0.5")
 
     //// Color ////
-    .attr("fill", function (d) {
-      var str = d.properties.name;
-      // return d3.interpolateBlues(color(d[str][color]))
-
-      if (str.includes("United")) {
-        return "blue"
-      } else {
-        return "pink";
-      }
-    });
 
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft + 20;
@@ -109,7 +101,7 @@ function draw(topo) {
       })
       .then(function (CRI) {
         console.log(CRI);
-        
+
         function minValue() { // find minimum value
           min = +Infinity;
 
@@ -131,12 +123,35 @@ function draw(topo) {
           }
           return max;
         }
-
+        var medium = (maxValue() - minValue()) / 2
+        var anotherPivot = (maxValue() - minValue()) / 4
+        var evensmallerPivot = (maxValue() - minValue()) / 6
+        console.log(medium)
+        console.log(anotherPivot)
         // map min and max values to be between 0 and 1
+        // This thing written here is wrong: you don't need to return a number, but a range of colors,
+        // let's say colors between white and red
         var colorScale = d3.scale.linear()
-          .domain([minValue(), maxValue()])
-          .range([0, 1]);
+          .domain([minValue(),evensmallerPivot, anotherPivot, medium, maxValue()])
+          .range(['white', '#AD3131', '#6F0000', '#4D0000']);
 
+        country.attr("fill", function (d) {
+          // Creating sub arrays with only matching objects across datasets
+            var filtered = CRI.filter(element => { return element.Country === d.properties.name })
+            console.log(filtered)
+            // If filtered is longer than 0 (which means that it actually has data)
+            if (filtered.length !== 0) {
+              // then print me data
+              console.log('I have data! I am', filtered[0].Country, 'and I have', filtered[0][factor])
+              // and return the value I want scaled for the previously generated scale
+              return colorScale(filtered[0][factor])
+            } else {
+              // If there are no data print a sad message :(
+              console.log('I have nothing :(')
+              // And then return an arbitrary color so we can identify countries with no data attached
+              return 'gray'
+            }
+          });
       });
   }
 
