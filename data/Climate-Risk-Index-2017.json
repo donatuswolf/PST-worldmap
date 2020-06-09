@@ -65,7 +65,7 @@
     "Losses per unit GDP in % Rank": 9
   },
   {
-    "Country": "Vietnam",
+    "Country": "Viet Nam",
     "CRI Rank": 6,
     "CRI score": 13.5,
     "Fatalities in 2017 Total": 298,
@@ -143,7 +143,7 @@
     "Losses per unit GDP in % Rank": 24
   },
   {
-    "Country": "United States\nof America",
+    "Country": "United States",
     "CRI Rank": 12,
     "CRI score": 19.83,
     "Fatalities in 2017 Total": 389,
@@ -338,7 +338,7 @@
     "Losses per unit GDP in % Rank": 18
   },
   {
-    "Country": "Islamic Republic\nof Afghanistan",
+    "Country": "Afghanistan",
     "CRI Rank": 26,
     "CRI score": 37.33,
     "Fatalities in 2017 Total": 328,
@@ -481,7 +481,7 @@
     "Losses per unit GDP in % Rank": 26
   },
   {
-    "Country": "Islamic Republic\nof Iran",
+    "Country": "Iran, Islamic Republic of",
     "CRI Rank": 38,
     "CRI score": 47.5,
     "Fatalities in 2017 Total": 79,
@@ -494,7 +494,7 @@
     "Losses per unit GDP in % Rank": 70
   },
   {
-    "Country": "Bolivia",
+    "Country": "Bolivia, Plurinational State of",
     "CRI Rank": 39,
     "CRI score": 47.67,
     "Fatalities in 2017 Total": 22,
@@ -611,7 +611,7 @@
     "Losses per unit GDP in % Rank": 31
   },
   {
-    "Country": "Lao People's\nDemocratic Republic",
+    "Country": "Lao People's Democratic Republic",
     "CRI Rank": 48,
     "CRI score": 55,
     "Fatalities in 2017 Total": 12,
@@ -663,7 +663,7 @@
     "Losses per unit GDP in % Rank": 72
   },
   {
-    "Country": "Kyrgyz Republic",
+    "Country": "Kyrgyzstan",
     "CRI Rank": 52,
     "CRI score": 57.17,
     "Fatalities in 2017 Total": 34,
@@ -715,7 +715,7 @@
     "Losses per unit GDP in % Rank": 45
   },
   {
-    "Country": "Democratic Republic of\nCongo",
+    "Country": "Congo, the Democratic Republic of the",
     "CRI Rank": 56,
     "CRI score": 59,
     "Fatalities in 2017 Total": 199,
@@ -832,7 +832,7 @@
     "Losses per unit GDP in % Rank": 80
   },
   {
-    "Country": "Slovak Republic",
+    "Country": "Slovakia",
     "CRI Rank": 64,
     "CRI score": 64.67,
     "Fatalities in 2017 Total": 8,
@@ -845,7 +845,7 @@
     "Losses per unit GDP in % Rank": 81
   },
   {
-    "Country": "Republic of Yemen",
+    "Country": "Yemen",
     "CRI Rank": 66,
     "CRI score": 66.17,
     "Fatalities in 2017 Total": 18,
@@ -910,7 +910,7 @@
     "Losses per unit GDP in % Rank": 41
   },
   {
-    "Country": "Russia",
+    "Country": "Russian Federation",
     "CRI Rank": 71,
     "CRI score": 69,
     "Fatalities in 2017 Total": 29,
@@ -1157,7 +1157,7 @@
     "Losses per unit GDP in % Rank": 43
   },
   {
-    "Country": "Chinese Taipei",
+    "Country": "Taiwan",
     "CRI Rank": 90,
     "CRI score": 81.67,
     "Fatalities in 2017 Total": 3,
@@ -1183,7 +1183,7 @@
     "Losses per unit GDP in % Rank": 48
   },
   {
-    "Country": "Tanzania",
+    "Country": "Tanzania, United Republic of",
     "CRI Rank": 90,
     "CRI score": 81.67,
     "Fatalities in 2017 Total": 16,
@@ -1235,7 +1235,7 @@
     "Losses per unit GDP in % Rank": 108
   },
   {
-    "Country": "Central African\nRepublic",
+    "Country": "Central African Republic",
     "CRI Rank": 96,
     "CRI score": 82.83,
     "Fatalities in 2017 Total": 4,
@@ -1352,7 +1352,7 @@
     "Losses per unit GDP in % Rank": 65
   },
   {
-    "Country": "Former Yugoslav\nRepublic of Macedonia",
+    "Country": "Macedonia, the former Yugoslav Republic of",
     "CRI Rank": 105,
     "CRI score": 86.67,
     "Fatalities in 2017 Total": 3,
@@ -1534,7 +1534,7 @@
     "Losses per unit GDP in % Rank": 101
   },
   {
-    "Country": "Venezuela",
+    "Country": "Venezuela, Bolivarian Republic of",
     "CRI Rank": 119,
     "CRI score": 106.83,
     "Fatalities in 2017 Total": 0,
@@ -1742,7 +1742,7 @@
     "Losses per unit GDP in % Rank": 124
   },
   {
-    "Country": "Democratic Republic of\nTimor-Leste",
+    "Country": "Timor-Leste",
     "CRI Rank": 124,
     "CRI score": 116,
     "Fatalities in 2017 Total": 0,
@@ -2145,7 +2145,7 @@
     "Losses per unit GDP in % Rank": 124
   },
   {
-    "Country": "Moldova",
+    "Country": "Moldova, Republic of",
     "CRI Rank": 124,
     "CRI score": 116,
     "Fatalities in 2017 Total": 0,
@@ -2210,7 +2210,7 @@
     "Losses per unit GDP in % Rank": 124
   },
   {
-    "Country": "Republic of Congo",
+    "Country": "Congo",
     "CRI Rank": 124,
     "CRI score": 116,
     "Fatalities in 2017 Total": 0,
@@ -2275,7 +2275,7 @@
     "Losses per unit GDP in % Rank": 124
   },
   {
-    "Country": "St. Vincent and\nthe Grenadines",
+    "Country": "St. Vincent and the Grenadines",
     "CRI Rank": 124,
     "CRI score": 116,
     "Fatalities in 2017 Total": 0,
