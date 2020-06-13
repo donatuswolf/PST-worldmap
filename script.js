@@ -10,6 +10,16 @@ var height = width / 2;
 
 var topo, projection, path, svg, g;
 
+var file = "co-emissions-capita-2017";
+var factor = "CO2 emissions (tonnes)";
+
+// var dataset = {
+//   emission {
+//     file: "co-emissions-capita-2017",
+//     factor: 
+//   }
+// }
+
 var graticule = d3.geo.graticule();
 
 var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
@@ -91,10 +101,10 @@ function draw(topo) {
 
   // loadData("Climate-Risk-Index-2017", "CRI Rank")
   // loadData("co-emissions-capita-2017","CO2 emissions (tonnes)")
-  loadData("GDP-per-capita", "GDP")
+  loadData()
 
   //// load data set ////
-  function loadData(file, factor) {
+  function loadData() {
     fetch('data/' + file + '.json')
       .then(function (response) {
         return response.json();
@@ -191,6 +201,14 @@ function draw(topo) {
 
 }
 
+function changeData(newFile, newFactor) {
+  console.log("changeData")
+  file = newFile;
+  factor = newFactor;
+  // d3.select('svg').remove();
+  // draw(topo);
+  redraw();
+}
 
 function redraw() {
   width = document.getElementById('container').offsetWidth;

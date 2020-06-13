@@ -49,3 +49,11 @@ body {
     stroke: #ccc;
     stroke-width: 1px;
   } */
+
+  #buttons {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row
+  }
