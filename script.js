@@ -9,7 +9,6 @@ var width = document.getElementById('container').offsetWidth;
 var height = width / 2;
 
 var topo, projection, path, svg, g;
-var factor = "CRI Rank";
 
 var graticule = d3.geo.graticule();
 
@@ -81,33 +80,34 @@ function draw(topo) {
       // console.log(d.properties)
       return d.properties.name;
     })
-    // .attr("stroke", "black")
-    // .attr("stroke-width", "0.5")
+  // .attr("stroke", "black")
+  // .attr("stroke-width", "0.5")
 
-    //// Color ////
+  //// Color ////
 
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft + 20;
   var offsetT = document.getElementById('container').offsetTop + 10;
 
-  loadDataCRI()
+  // loadData("Climate-Risk-Index-2017", "CRI Rank")
+  // loadData("co-emissions-capita-2017","CO2 emissions (tonnes)")
+  loadData("GDP-per-capita", "GDP")
 
-
-  //// load CRI data set ////
-  function loadDataCRI() {
-    fetch('data/Climate-Risk-Index-2017.json')
+  //// load data set ////
+  function loadData(file, factor) {
+    fetch('data/' + file + '.json')
       .then(function (response) {
         return response.json();
       })
-      .then(function (CRI) {
-        console.log(CRI);
+      .then(function (data) {
+        console.log(data);
 
         function minValue() { // find minimum value
           min = +Infinity;
 
-          for (var i = 0; i < CRI.length; i++) {
-            if (CRI[i][factor] < min) {
-              min = CRI[i][factor];
+          for (var i = 0; i < data.length; i++) {
+            if (data[i][factor] < min) {
+              min = data[i][factor];
             }
           }
           return min;
@@ -116,44 +116,48 @@ function draw(topo) {
         function maxValue() { // find maximum value
           max = -Infinity;
 
-          for (var i = 0; i < CRI.length - 1; i++) {
-            if (CRI[i][factor] > max) {
-              max = CRI[i][factor];
+          for (var i = 0; i < data.length - 1; i++) {
+            if (data[i][factor] > max) {
+              max = data[i][factor];
             }
           }
           return max;
         }
+
         var medium = (maxValue() - minValue()) / 2
         var anotherPivot = (maxValue() - minValue()) / 4
         var evensmallerPivot = (maxValue() - minValue()) / 6
-        console.log(medium)
-        console.log(anotherPivot)
+        // console.log(medium)
+        // console.log(anotherPivot)
         // map min and max values to be between 0 and 1
-        // This thing written here is wrong: you don't need to return a number, but a range of colors,
-        // let's say colors between white and red
         var colorScale = d3.scale.linear()
           // .domain([minValue(),evensmallerPivot, anotherPivot, medium, maxValue()])
           // .range(['white', '#AD3131', '#6F0000', '#4D0000']);
           .domain([minValue(), maxValue()])
           .range(['#003BFF', '#FD857D']);
 
+        console.log(minValue(), maxValue())
+
+
         country.attr("fill", function (d) {
           // Creating sub arrays with only matching objects across datasets
-            var filtered = CRI.filter(element => { return element.Country === d.properties.name })
-            // console.log(filtered)
-            // If filtered is longer than 0 (which means that it actually has data)
-            if (filtered.length !== 0) {
-              // then print me data
-              // console.log('I have data! I am', filtered[0].Country, 'and I have', filtered[0][factor])
-              // and return the value I want scaled for the previously generated scale
-              return colorScale(filtered[0][factor])
-            } else {
-              // If there are no data print a sad message :(
-              // console.log('I have nothing :(')
-              // And then return an arbitrary color so we can identify countries with no data attached
-              return 'grey'
-            }
-          });
+          var filtered = data.filter(element => {
+            return element.Country === d.properties.name
+          })
+          // console.log(filtered)
+          // If filtered is longer than 0 (which means that it actually has data)
+          if (filtered.length !== 0) {
+            // then print me data
+            // console.log('I have data! I am', filtered[0].Country, 'and I have', filtered[0][factor])
+            // and return the value I want scaled for the previously generated scale
+            return colorScale(filtered[0][factor])
+          } else {
+            // If there are no data print a sad message :(
+            // console.log('I have nothing :(')
+            // And then return an arbitrary color so we can identify countries with no data attached
+            return 'grey'
+          }
+        });
       });
   }
 
@@ -238,7 +242,7 @@ function throttle() {
 //geo translation on mouse click in map
 function click() {
   var latlon = projection.invert(d3.mouse(this));
-  console.log(latlon);
+  // console.log(latlon);
 }
 
 
