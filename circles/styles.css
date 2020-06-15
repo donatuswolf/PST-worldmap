@@ -1,0 +1,19 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+text {
+    /* font: 10px sans-serif; */
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 10px;
+    /* line-height: 22px; */
+    font-weight: 500;
+    /* color: white; */
+}
+
+/* circle {
+    stroke: #565352;
+} */

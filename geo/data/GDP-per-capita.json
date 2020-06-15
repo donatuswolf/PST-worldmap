@@ -1,0 +1,1292 @@
+[
+  {
+    "Country": "Burundi",
+    "year": 2018,
+    "GDP": 271.7520444
+  },
+  {
+    "Country": "Somalia",
+    "year": 2018,
+    "GDP": 314.5441657
+  },
+  {
+    "Country": "Malawi",
+    "year": 2018,
+    "GDP": 389.3980332
+  },
+  {
+    "Country": "Niger",
+    "year": 2018,
+    "GDP": 413.980305
+  },
+  {
+    "Country": "Central African Republic",
+    "year": 2018,
+    "GDP": 475.7212505
+  },
+  {
+    "Country": "Mozambique",
+    "year": 2018,
+    "GDP": 498.9572202
+  },
+  {
+    "Country": "Afghanistan",
+    "year": 2018,
+    "GDP": 520.8966027
+  },
+  {
+    "Country": "Madagascar",
+    "year": 2018,
+    "GDP": 527.501285
+  },
+  {
+    "Country": "Sierra Leone",
+    "year": 2018,
+    "GDP": 533.9911843
+  },
+  {
+    "Country": "Congo, Dem. Rep.",
+    "year": 2018,
+    "GDP": 561.7771824
+  },
+  {
+    "Country": "Uganda",
+    "year": 2018,
+    "GDP": 642.7767443
+  },
+  {
+    "Country": "Liberia",
+    "year": 2018,
+    "GDP": 677.3221785
+  },
+  {
+    "Country": "Togo",
+    "year": 2018,
+    "GDP": 678.9556381
+  },
+  {
+    "Country": "Burkina Faso",
+    "year": 2018,
+    "GDP": 715.122904
+  },
+  {
+    "Country": "Gambia, The",
+    "year": 2018,
+    "GDP": 716.118489
+  },
+  {
+    "Country": "Chad",
+    "year": 2018,
+    "GDP": 728.3432354
+  },
+  {
+    "Country": "Ethiopia",
+    "year": 2018,
+    "GDP": 772.3135303
+  },
+  {
+    "Country": "Rwanda",
+    "year": 2018,
+    "GDP": 772.9444599
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "year": 2018,
+    "GDP": 777.9699218
+  },
+  {
+    "Country": "Tajikistan",
+    "year": 2018,
+    "GDP": 826.6215305
+  },
+  {
+    "Country": "Low income",
+    "year": 2018,
+    "GDP": 840.8601383
+  },
+  {
+    "Country": "Haiti",
+    "year": 2018,
+    "GDP": 868.3420247
+  },
+  {
+    "Country": "Guinea",
+    "year": 2018,
+    "GDP": 878.5996133
+  },
+  {
+    "Country": "Mali",
+    "year": 2018,
+    "GDP": 899.6599081
+  },
+  {
+    "Country": "Heavily indebted poor countries (HIPC)",
+    "year": 2018,
+    "GDP": 939.6163496
+  },
+  {
+    "Country": "Yemen, Rep.",
+    "year": 2018,
+    "GDP": 944.4084994
+  },
+  {
+    "Country": "Sudan",
+    "year": 2018,
+    "GDP": 977.2736357
+  },
+  {
+    "Country": "Nepal",
+    "year": 2018,
+    "GDP": 1033.912431
+  },
+  {
+    "Country": "Least developed countries: UN classification",
+    "year": 2018,
+    "GDP": 1057.986042
+  },
+  {
+    "Country": "Tanzania",
+    "year": 2018,
+    "GDP": 1060.994615
+  },
+  {
+    "Country": "IDA only",
+    "year": 2018,
+    "GDP": 1144.239504
+  },
+  {
+    "Country": "Mauritania",
+    "year": 2018,
+    "GDP": 1188.834588
+  },
+  {
+    "Country": "Timor-Leste",
+    "year": 2018,
+    "GDP": 1237.102682
+  },
+  {
+    "Country": "Benin",
+    "year": 2018,
+    "GDP": 1240.829464
+  },
+  {
+    "Country": "Kyrgyz Republic",
+    "year": 2018,
+    "GDP": 1279.945057
+  },
+  {
+    "Country": "Lesotho",
+    "year": 2018,
+    "GDP": 1299.153126
+  },
+  {
+    "Country": "Myanmar",
+    "year": 2018,
+    "GDP": 1325.952924
+  },
+  {
+    "Country": "IDA total",
+    "year": 2018,
+    "GDP": 1362.054479
+  },
+  {
+    "Country": "Comoros",
+    "year": 2018,
+    "GDP": 1415.263622
+  },
+  {
+    "Country": "Pre-demographic dividend",
+    "year": 2018,
+    "GDP": 1440.271936
+  },
+  {
+    "Country": "Pakistan",
+    "year": 2018,
+    "GDP": 1482.403063
+  },
+  {
+    "Country": "Cambodia",
+    "year": 2018,
+    "GDP": 1510.324871
+  },
+  {
+    "Country": "Senegal",
+    "year": 2018,
+    "GDP": 1521.953554
+  },
+  {
+    "Country": "Uzbekistan",
+    "year": 2018,
+    "GDP": 1532.371677
+  },
+  {
+    "Country": "Cameroon",
+    "year": 2018,
+    "GDP": 1533.74214
+  },
+  {
+    "Country": "Zambia",
+    "year": 2018,
+    "GDP": 1539.900158
+  },
+  {
+    "Country": "Sub-Saharan Africa (excluding high income)",
+    "year": 2018,
+    "GDP": 1587.914181
+  },
+  {
+    "Country": "Sub-Saharan Africa",
+    "year": 2018,
+    "GDP": 1589.247775
+  },
+  {
+    "Country": "Sub-Saharan Africa (IDA & IBRD countries)",
+    "year": 2018,
+    "GDP": 1589.247775
+  },
+  {
+    "Country": "Kiribati",
+    "year": 2018,
+    "GDP": 1625.2861
+  },
+  {
+    "Country": "Bangladesh",
+    "year": 2018,
+    "GDP": 1698.262802
+  },
+  {
+    "Country": "Kenya",
+    "year": 2018,
+    "GDP": 1710.510097
+  },
+  {
+    "Country": "Cote d'Ivoire",
+    "year": 2018,
+    "GDP": 1715.531332
+  },
+  {
+    "Country": "IDA blend",
+    "year": 2018,
+    "GDP": 1788.79659
+  },
+  {
+    "Country": "South Asia",
+    "year": 2018,
+    "GDP": 1902.802629
+  },
+  {
+    "Country": "South Asia (IDA & IBRD)",
+    "year": 2018,
+    "GDP": 1902.802629
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "year": 2018,
+    "GDP": 2001.140902
+  },
+  {
+    "Country": "India",
+    "year": 2018,
+    "GDP": 2009.978857
+  },
+  {
+    "Country": "Nicaragua",
+    "year": 2018,
+    "GDP": 2020.547028
+  },
+  {
+    "Country": "Nigeria",
+    "year": 2018,
+    "GDP": 2028.18197
+  },
+  {
+    "Country": "Solomon Islands",
+    "year": 2018,
+    "GDP": 2137.690695
+  },
+  {
+    "Country": "Zimbabwe",
+    "year": 2018,
+    "GDP": 2146.996385
+  },
+  {
+    "Country": "Congo, Rep.",
+    "year": 2018,
+    "GDP": 2147.769461
+  },
+  {
+    "Country": "Ghana",
+    "year": 2018,
+    "GDP": 2202.312164
+  },
+  {
+    "Country": "Fragile and conflict affected situations",
+    "year": 2018,
+    "GDP": 2216.275804
+  },
+  {
+    "Country": "Lower middle income",
+    "year": 2018,
+    "GDP": 2217.613518
+  },
+  {
+    "Country": "Honduras",
+    "year": 2018,
+    "GDP": 2505.776752
+  },
+  {
+    "Country": "Lao PDR",
+    "year": 2018,
+    "GDP": 2542.486528
+  },
+  {
+    "Country": "Egypt, Arab Rep.",
+    "year": 2018,
+    "GDP": 2549.132252
+  },
+  {
+    "Country": "Vietnam",
+    "year": 2018,
+    "GDP": 2566.59695
+  },
+  {
+    "Country": "Papua New Guinea",
+    "year": 2018,
+    "GDP": 2730.274799
+  },
+  {
+    "Country": "Djibouti",
+    "year": 2018,
+    "GDP": 3082.543099
+  },
+  {
+    "Country": "Ukraine",
+    "year": 2018,
+    "GDP": 3095.173581
+  },
+  {
+    "Country": "Philippines",
+    "year": 2018,
+    "GDP": 3102.713363
+  },
+  {
+    "Country": "Vanuatu",
+    "year": 2018,
+    "GDP": 3123.893396
+  },
+  {
+    "Country": "West Bank and Gaza",
+    "year": 2018,
+    "GDP": 3198.866644
+  },
+  {
+    "Country": "Morocco",
+    "year": 2018,
+    "GDP": 3222.200634
+  },
+  {
+    "Country": "Bhutan",
+    "year": 2018,
+    "GDP": 3243.231125
+  },
+  {
+    "Country": "Angola",
+    "year": 2018,
+    "GDP": 3432.385736
+  },
+  {
+    "Country": "Tunisia",
+    "year": 2018,
+    "GDP": 3447.50791
+  },
+  {
+    "Country": "Bolivia",
+    "year": 2018,
+    "GDP": 3548.59014
+  },
+  {
+    "Country": "Micronesia, Fed. Sts.",
+    "year": 2018,
+    "GDP": 3568.290829
+  },
+  {
+    "Country": "Early-demographic dividend",
+    "year": 2018,
+    "GDP": 3582.136212
+  },
+  {
+    "Country": "Cabo Verde",
+    "year": 2018,
+    "GDP": 3635.40685
+  },
+  {
+    "Country": "Tuvalu",
+    "year": 2018,
+    "GDP": 3700.710677
+  },
+  {
+    "Country": "Marshall Islands",
+    "year": 2018,
+    "GDP": 3788.163594
+  },
+  {
+    "Country": "Indonesia",
+    "year": 2018,
+    "GDP": 3893.596078
+  },
+  {
+    "Country": "El Salvador",
+    "year": 2018,
+    "GDP": 4058.252439
+  },
+  {
+    "Country": "Sri Lanka",
+    "year": 2018,
+    "GDP": 4102.48135
+  },
+  {
+    "Country": "Algeria",
+    "year": 2018,
+    "GDP": 4114.715061
+  },
+  {
+    "Country": "Mongolia",
+    "year": 2018,
+    "GDP": 4121.732435
+  },
+  {
+    "Country": "Eswatini",
+    "year": 2018,
+    "GDP": 4145.974112
+  },
+  {
+    "Country": "Samoa",
+    "year": 2018,
+    "GDP": 4183.407935
+  },
+  {
+    "Country": "Armenia",
+    "year": 2018,
+    "GDP": 4212.070943
+  },
+  {
+    "Country": "Pacific island small states",
+    "year": 2018,
+    "GDP": 4224.52989
+  },
+  {
+    "Country": "Moldova",
+    "year": 2018,
+    "GDP": 4228.922475
+  },
+  {
+    "Country": "Jordan",
+    "year": 2018,
+    "GDP": 4241.788782
+  },
+  {
+    "Country": "Kosovo",
+    "year": 2018,
+    "GDP": 4302.276483
+  },
+  {
+    "Country": "Tonga",
+    "year": 2018,
+    "GDP": 4364.015561
+  },
+  {
+    "Country": "Guatemala",
+    "year": 2018,
+    "GDP": 4549.010081
+  },
+  {
+    "Country": "Azerbaijan",
+    "year": 2018,
+    "GDP": 4722.381679
+  },
+  {
+    "Country": "Georgia",
+    "year": 2018,
+    "GDP": 4722.777194
+  },
+  {
+    "Country": "Belize",
+    "year": 2018,
+    "GDP": 4884.742421
+  },
+  {
+    "Country": "Low & middle income",
+    "year": 2018,
+    "GDP": 4975.114987
+  },
+  {
+    "Country": "Guyana",
+    "year": 2018,
+    "GDP": 4979.002188
+  },
+  {
+    "Country": "IDA & IBRD total",
+    "year": 2018,
+    "GDP": 5102.491415
+  },
+  {
+    "Country": "Albania",
+    "year": 2018,
+    "GDP": 5268.848504
+  },
+  {
+    "Country": "Jamaica",
+    "year": 2018,
+    "GDP": 5354.236859
+  },
+  {
+    "Country": "Middle income",
+    "year": 2018,
+    "GDP": 5489.304818
+  },
+  {
+    "Country": "Paraguay",
+    "year": 2018,
+    "GDP": 5821.814323
+  },
+  {
+    "Country": "Iraq",
+    "year": 2018,
+    "GDP": 5834.166211
+  },
+  {
+    "Country": "Namibia",
+    "year": 2018,
+    "GDP": 5931.453886
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "year": 2018,
+    "GDP": 6065.672708
+  },
+  {
+    "Country": "North Macedonia",
+    "year": 2018,
+    "GDP": 6083.718948
+  },
+  {
+    "Country": "Suriname",
+    "year": 2018,
+    "GDP": 6234.044922
+  },
+  {
+    "Country": "Fiji",
+    "year": 2018,
+    "GDP": 6266.967965
+  },
+  {
+    "Country": "Belarus",
+    "year": 2018,
+    "GDP": 6330.075246
+  },
+  {
+    "Country": "Ecuador",
+    "year": 2018,
+    "GDP": 6344.871979
+  },
+  {
+    "Country": "South Africa",
+    "year": 2018,
+    "GDP": 6374.028196
+  },
+  {
+    "Country": "IBRD only",
+    "year": 2018,
+    "GDP": 6389.161736
+  },
+  {
+    "Country": "Arab World",
+    "year": 2018,
+    "GDP": 6610.150262
+  },
+  {
+    "Country": "Colombia",
+    "year": 2018,
+    "GDP": 6667.7907
+  },
+  {
+    "Country": "Peru",
+    "year": 2018,
+    "GDP": 6941.235848
+  },
+  {
+    "Country": "Turkmenistan",
+    "year": 2018,
+    "GDP": 6966.635411
+  },
+  {
+    "Country": "Libya",
+    "year": 2018,
+    "GDP": 7241.704481
+  },
+  {
+    "Country": "Serbia",
+    "year": 2018,
+    "GDP": 7246.191986
+  },
+  {
+    "Country": "Thailand",
+    "year": 2018,
+    "GDP": 7273.563207
+  },
+  {
+    "Country": "St. Vincent and the Grenadines",
+    "year": 2018,
+    "GDP": 7361.400962
+  },
+  {
+    "Country": "Dominica",
+    "year": 2018,
+    "GDP": 7691.345097
+  },
+  {
+    "Country": "East Asia & Pacific (excluding high income)",
+    "year": 2018,
+    "GDP": 7822.367542
+  },
+  {
+    "Country": "East Asia & Pacific (IDA & IBRD countries)",
+    "year": 2018,
+    "GDP": 7904.542756
+  },
+  {
+    "Country": "Gabon",
+    "year": 2018,
+    "GDP": 7952.525893
+  },
+  {
+    "Country": "Middle East & North Africa",
+    "year": 2018,
+    "GDP": 8044.321889
+  },
+  {
+    "Country": "Dominican Republic",
+    "year": 2018,
+    "GDP": 8050.631602
+  },
+  {
+    "Country": "Europe & Central Asia (excluding high income)",
+    "year": 2018,
+    "GDP": 8181.089891
+  },
+  {
+    "Country": "Botswana",
+    "year": 2018,
+    "GDP": 8258.641666
+  },
+  {
+    "Country": "Lebanon",
+    "year": 2018,
+    "GDP": 8269.787676
+  },
+  {
+    "Country": "Latin America & Caribbean (excluding high income)",
+    "year": 2018,
+    "GDP": 8576.169601
+  },
+  {
+    "Country": "Cuba",
+    "year": 2018,
+    "GDP": 8821.818891
+  },
+  {
+    "Country": "Europe & Central Asia (IDA & IBRD countries)",
+    "year": 2018,
+    "GDP": 8840.158981
+  },
+  {
+    "Country": "Montenegro",
+    "year": 2018,
+    "GDP": 8845.914219
+  },
+  {
+    "Country": "Latin America & the Caribbean (IDA & IBRD countries)",
+    "year": 2018,
+    "GDP": 8916.730679
+  },
+  {
+    "Country": "Brazil",
+    "year": 2018,
+    "GDP": 9001.234249
+  },
+  {
+    "Country": "Latin America & Caribbean",
+    "year": 2018,
+    "GDP": 9072.680362
+  },
+  {
+    "Country": "Upper middle income",
+    "year": 2018,
+    "GDP": 9212.074702
+  },
+  {
+    "Country": "Bulgaria",
+    "year": 2018,
+    "GDP": 9271.545633
+  },
+  {
+    "Country": "Turkey",
+    "year": 2018,
+    "GDP": 9370.176344
+  },
+  {
+    "Country": "Mexico",
+    "year": 2018,
+    "GDP": 9673.443674
+  },
+  {
+    "Country": "Late-demographic dividend",
+    "year": 2018,
+    "GDP": 9703.600499
+  },
+  {
+    "Country": "China",
+    "year": 2018,
+    "GDP": 9770.847088
+  },
+  {
+    "Country": "Kazakhstan",
+    "year": 2018,
+    "GDP": 9814.786258
+  },
+  {
+    "Country": "Nauru",
+    "year": 2018,
+    "GDP": 9888.893597
+  },
+  {
+    "Country": "Caribbean small states",
+    "year": 2018,
+    "GDP": 9991.016149
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "year": 2018,
+    "GDP": 10144.19581
+  },
+  {
+    "Country": "Maldives",
+    "year": 2018,
+    "GDP": 10330.61561
+  },
+  {
+    "Country": "St. Lucia",
+    "year": 2018,
+    "GDP": 10566.04975
+  },
+  {
+    "Country": "Grenada",
+    "year": 2018,
+    "GDP": 10640.49676
+  },
+  {
+    "Country": "East Asia & Pacific",
+    "year": 2018,
+    "GDP": 11142.55187
+  },
+  {
+    "Country": "Mauritius",
+    "year": 2018,
+    "GDP": 11238.69039
+  },
+  {
+    "Country": "Russian Federation",
+    "year": 2018,
+    "GDP": 11288.87845
+  },
+  {
+    "Country": "World",
+    "year": 2018,
+    "GDP": 11317.27058
+  },
+  {
+    "Country": "Malaysia",
+    "year": 2018,
+    "GDP": 11373.233
+  },
+  {
+    "Country": "American Samoa",
+    "year": 2018,
+    "GDP": 11466.69071
+  },
+  {
+    "Country": "Argentina",
+    "year": 2018,
+    "GDP": 11683.94962
+  },
+  {
+    "Country": "Costa Rica",
+    "year": 2018,
+    "GDP": 12027.36588
+  },
+  {
+    "Country": "Romania",
+    "year": 2018,
+    "GDP": 12306.10975
+  },
+  {
+    "Country": "Small states",
+    "year": 2018,
+    "GDP": 13197.5488
+  },
+  {
+    "Country": "Other small states",
+    "year": 2018,
+    "GDP": 14682.03594
+  },
+  {
+    "Country": "Croatia",
+    "year": 2018,
+    "GDP": 14915.37207
+  },
+  {
+    "Country": "Poland",
+    "year": 2018,
+    "GDP": 15422.45347
+  },
+  {
+    "Country": "Panama",
+    "year": 2018,
+    "GDP": 15575.07255
+  },
+  {
+    "Country": "Palau",
+    "year": 2018,
+    "GDP": 15859.43486
+  },
+  {
+    "Country": "Chile",
+    "year": 2018,
+    "GDP": 15923.35874
+  },
+  {
+    "Country": "Central Europe and the Baltics",
+    "year": 2018,
+    "GDP": 15926.09824
+  },
+  {
+    "Country": "Hungary",
+    "year": 2018,
+    "GDP": 16150.77276
+  },
+  {
+    "Country": "Oman",
+    "year": 2018,
+    "GDP": 16415.15728
+  },
+  {
+    "Country": "Seychelles",
+    "year": 2018,
+    "GDP": 16433.93529
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "year": 2018,
+    "GDP": 16726.98081
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "year": 2018,
+    "GDP": 17129.91309
+  },
+  {
+    "Country": "Uruguay",
+    "year": 2018,
+    "GDP": 17277.97011
+  },
+  {
+    "Country": "Latvia",
+    "year": 2018,
+    "GDP": 17854.75996
+  },
+  {
+    "Country": "Barbados",
+    "year": 2018,
+    "GDP": 17949.28151
+  },
+  {
+    "Country": "Lithuania",
+    "year": 2018,
+    "GDP": 19071.29979
+  },
+  {
+    "Country": "St. Kitts and Nevis",
+    "year": 2018,
+    "GDP": 19275.41851
+  },
+  {
+    "Country": "Slovak Republic",
+    "year": 2018,
+    "GDP": 19443.56246
+  },
+  {
+    "Country": "Curacao",
+    "year": 2018,
+    "GDP": 19573.8926
+  },
+  {
+    "Country": "Greece",
+    "year": 2018,
+    "GDP": 20316.56833
+  },
+  {
+    "Country": "Czech Republic",
+    "year": 2018,
+    "GDP": 23069.38325
+  },
+  {
+    "Country": "Estonia",
+    "year": 2018,
+    "GDP": 23247.10984
+  },
+  {
+    "Country": "Northern Mariana Islands",
+    "year": 2018,
+    "GDP": 23258.67586
+  },
+  {
+    "Country": "Saudi Arabia",
+    "year": 2018,
+    "GDP": 23338.96346
+  },
+  {
+    "Country": "Portugal",
+    "year": 2018,
+    "GDP": 23403.21764
+  },
+  {
+    "Country": "Bahrain",
+    "year": 2018,
+    "GDP": 24050.75751
+  },
+  {
+    "Country": "Europe & Central Asia",
+    "year": 2018,
+    "GDP": 25130.09853
+  },
+  {
+    "Country": "Slovenia",
+    "year": 2018,
+    "GDP": 26041.81897
+  },
+  {
+    "Country": "Turks and Caicos Islands",
+    "year": 2018,
+    "GDP": 27142.2278
+  },
+  {
+    "Country": "Cyprus",
+    "year": 2018,
+    "GDP": 28689.69858
+  },
+  {
+    "Country": "Malta",
+    "year": 2018,
+    "GDP": 30029.96704
+  },
+  {
+    "Country": "Spain",
+    "year": 2018,
+    "GDP": 30323.65106
+  },
+  {
+    "Country": "Korea, Rep.",
+    "year": 2018,
+    "GDP": 31380.14645
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "year": 2018,
+    "GDP": 31628.32879
+  },
+  {
+    "Country": "Puerto Rico",
+    "year": 2018,
+    "GDP": 31651.34815
+  },
+  {
+    "Country": "Bahamas, The",
+    "year": 2018,
+    "GDP": 32217.87159
+  },
+  {
+    "Country": "Kuwait",
+    "year": 2018,
+    "GDP": 33994.40657
+  },
+  {
+    "Country": "Italy",
+    "year": 2018,
+    "GDP": 34488.63885
+  },
+  {
+    "Country": "European Union",
+    "year": 2018,
+    "GDP": 35616.08669
+  },
+  {
+    "Country": "Guam",
+    "year": 2018,
+    "GDP": 35712.56214
+  },
+  {
+    "Country": "Japan",
+    "year": 2018,
+    "GDP": 39289.95843
+  },
+  {
+    "Country": "Euro area",
+    "year": 2018,
+    "GDP": 39918.85731
+  },
+  {
+    "Country": "OECD members",
+    "year": 2018,
+    "GDP": 40426.91405
+  },
+  {
+    "Country": "France",
+    "year": 2018,
+    "GDP": 41469.91955
+  },
+  {
+    "Country": "Israel",
+    "year": 2018,
+    "GDP": 41719.72544
+  },
+  {
+    "Country": "Andorra",
+    "year": 2018,
+    "GDP": 42029.76274
+  },
+  {
+    "Country": "New Zealand",
+    "year": 2018,
+    "GDP": 42330.9064
+  },
+  {
+    "Country": "United Kingdom",
+    "year": 2018,
+    "GDP": 42962.41277
+  },
+  {
+    "Country": "United Arab Emirates",
+    "year": 2018,
+    "GDP": 43004.95336
+  },
+  {
+    "Country": "High income",
+    "year": 2018,
+    "GDP": 44806.24553
+  },
+  {
+    "Country": "Post-demographic dividend",
+    "year": 2018,
+    "GDP": 45148.87068
+  },
+  {
+    "Country": "Canada",
+    "year": 2018,
+    "GDP": 46234.35075
+  },
+  {
+    "Country": "Belgium",
+    "year": 2018,
+    "GDP": 47472.13673
+  },
+  {
+    "Country": "Germany",
+    "year": 2018,
+    "GDP": 47615.74003
+  },
+  {
+    "Country": "Hong Kong SAR, China",
+    "year": 2018,
+    "GDP": 48675.61646
+  },
+  {
+    "Country": "Finland",
+    "year": 2018,
+    "GDP": 50175.29982
+  },
+  {
+    "Country": "Austria",
+    "year": 2018,
+    "GDP": 51499.88536
+  },
+  {
+    "Country": "Netherlands",
+    "year": 2018,
+    "GDP": 53022.19139
+  },
+  {
+    "Country": "Sweden",
+    "year": 2018,
+    "GDP": 54651.08537
+  },
+  {
+    "Country": "Australia",
+    "year": 2018,
+    "GDP": 57395.91947
+  },
+  {
+    "Country": "North America",
+    "year": 2018,
+    "GDP": 61197.85573
+  },
+  {
+    "Country": "Denmark",
+    "year": 2018,
+    "GDP": 61390.69301
+  },
+  {
+    "Country": "United States",
+    "year": 2018,
+    "GDP": 62886.83648
+  },
+  {
+    "Country": "Singapore",
+    "year": 2018,
+    "GDP": 64581.94402
+  },
+  {
+    "Country": "Qatar",
+    "year": 2018,
+    "GDP": 68793.78444
+  },
+  {
+    "Country": "Iceland",
+    "year": 2018,
+    "GDP": 73368.11746
+  },
+  {
+    "Country": "Ireland",
+    "year": 2018,
+    "GDP": 78582.9481
+  },
+  {
+    "Country": "Norway",
+    "year": 2018,
+    "GDP": 81734.46557
+  },
+  {
+    "Country": "Switzerland",
+    "year": 2018,
+    "GDP": 82828.79737
+  },
+  {
+    "Country": "Macao SAR, China",
+    "year": 2018,
+    "GDP": 87208.53591
+  },
+  {
+    "Country": "Luxembourg",
+    "year": 2018,
+    "GDP": 116597.2956
+  },
+  {
+    "Country": "Monaco",
+    "year": 2018,
+    "GDP": 185741.28
+  },
+  {
+    "Country": "Middle East & North Africa (excluding high income)",
+    "year": 2017,
+    "GDP": 3825.034063
+  },
+  {
+    "Country": "Middle East & North Africa (IDA & IBRD countries)",
+    "year": 2017,
+    "GDP": 3831.271337
+  },
+  {
+    "Country": "Iran, Islamic Rep.",
+    "year": 2017,
+    "GDP": 5627.749268
+  },
+  {
+    "Country": "Aruba",
+    "year": 2017,
+    "GDP": 25630.26649
+  },
+  {
+    "Country": "Virgin Islands (U.S.)",
+    "year": 2017,
+    "GDP": 35938.02439
+  },
+  {
+    "Country": "San Marino",
+    "year": 2017,
+    "GDP": 48494.55141
+  },
+  {
+    "Country": "Isle of Man",
+    "year": 2017,
+    "GDP": 80989.17221
+  },
+  {
+    "Country": "Cayman Islands",
+    "year": 2017,
+    "GDP": 81124.51348
+  },
+  {
+    "Country": "Greenland",
+    "year": 2016,
+    "GDP": 48181.87419
+  },
+  {
+    "Country": "Faroe Islands",
+    "year": 2016,
+    "GDP": 55822.91472
+  },
+  {
+    "Country": "Liechtenstein",
+    "year": 2016,
+    "GDP": 165028.245
+  },
+  {
+    "Country": "South Sudan",
+    "year": 2015,
+    "GDP": 1119.651332
+  },
+  {
+    "Country": "Venezuela, RB",
+    "year": 2014,
+    "GDP": 16054.49051
+  },
+  {
+    "Country": "Bermuda",
+    "year": 2013,
+    "GDP": 85748.06541
+  },
+  {
+    "Country": "Eritrea",
+    "year": 2011,
+    "GDP": 811.3760286
+  },
+  {
+    "Country": "Syrian Arab Republic",
+    "year": 2007,
+    "GDP": 2032.623489
+  },
+  {
+    "Country": "Channel Islands",
+    "year": 2007,
+    "GDP": 74462.64675
+  },
+  {
+    "Country": "New Caledonia",
+    "year": 2000,
+    "GDP": 12579.59511
+  },
+  {
+    "Country": "French Polynesia",
+    "year": 2000,
+    "GDP": 14323.82082
+  }
+]
