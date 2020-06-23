@@ -1,19 +1,41 @@
-    var width = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);;
-    var height = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-    var padding = 8;
-    var k;
-    var node;
+var width = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);;
+var height = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+var padding = 8;
+var k;
+var node;
+var pointScale;
 
-    var pixelLoc = d3.geo.mercator();
-    pixelLoc.scale(2000);
+var factor = "population";
 
-    svg = d3.select('#map')
-        .append('svg:svg')
-        .attr('width', width)
-        .attr('height', height);
+var factor = {
+    population: {
+        pScale: d3.scale.sqrt().domain([0, 700000000]).range([0, 75])
+    },
+    cri_rank: {
+        pScale: d3.scale.linear().domain([1, 500]).range([0, 100])
+    },
+    cri_score: {
+        pScale: d3.scale.sqrt().domain([1, 500]).range([0, 100])
+    },
+    gdp: {
+        pScale: d3.scale.sqrt().domain([0, 7000000]).range([0, 75])
+    }
+}
 
+var pixelLoc = d3.geo.mercator();
+pixelLoc.scale(2000);
+
+svg = d3.select('#map')
+    .append('svg:svg')
+    .attr('width', width)
+    .attr('height', height);
+
+drawMap("gdp");
+
+function drawMap(input) {
     d3.json('coordinates.json', function (coordinates) {
 
+        console.log(coordinates)
         var coords = [];
         var xs = [];
         var ys = []
@@ -34,18 +56,18 @@
         d3.json('countries.json', function (countries) {
             console.log(countries);
 
-            var pointScale = d3.scale.sqrt().domain([0, 700000000]).range([0, 75]);
+            pointScale = factor[input].pScale;
 
             nodes = []
             for (i = 0; i < countries.length; i++) {
-                // if (node.cri_rank.length === 0) {
-                node = countries[i];
-                node.coordinates = coordinates[node.alias];
-                node.cx = xScale(pixelLoc(node.coordinates)[0]);
-                node.cy = yScale(pixelLoc(node.coordinates)[1]);
-                node.radius = pointScale(node.population);
-                nodes.push(node);
-                // }  
+                if (countries[i][input] != 0) {
+                    node = countries[i];
+                    node.coordinates = coordinates[node.alias];
+                    node.cx = xScale(pixelLoc(node.coordinates)[0]);
+                    node.cy = yScale(pixelLoc(node.coordinates)[1]);
+                    node.radius = pointScale(node[input]);
+                    nodes.push(node);
+                }
             }
 
             force = d3.layout.force()
@@ -112,31 +134,37 @@
 
         });
     });
+};
 
-    // Adapted from http://bl.ocks.org/3116713
-    var collide = function (alpha, nodes, scale) {
-        var quadtree = d3.geom.quadtree(nodes);
-        return function (d) {
-            var r = d.radius + scale.domain()[1] + padding;
-            var nx1 = d.x - r;
-            var nx2 = d.x + r;
-            var ny1 = d.y - r;
-            var ny2 = d.y + r;
-            quadtree.visit(function (quad, x1, y1, x2, y2) {
-                if (quad.point && quad.point !== d) {
-                    var x = d.x - quad.point.x;
-                    var y = d.y - quad.point.y;
-                    var l = Math.sqrt(x * x + y * y)
-                    var r = d.radius + quad.point.radius + padding;
-                    if (l < r) {
-                        l = (l - r) / l * alpha;
-                        d.x -= x *= l;
-                        d.y -= y *= l;
-                        quad.point.x += x;
-                        quad.point.y += y;
-                    }
+// Adapted from http://bl.ocks.org/3116713
+var collide = function (alpha, nodes, scale) {
+    var quadtree = d3.geom.quadtree(nodes);
+    return function (d) {
+        var r = d.radius + scale.domain()[1] + padding;
+        var nx1 = d.x - r;
+        var nx2 = d.x + r;
+        var ny1 = d.y - r;
+        var ny2 = d.y + r;
+        quadtree.visit(function (quad, x1, y1, x2, y2) {
+            if (quad.point && quad.point !== d) {
+                var x = d.x - quad.point.x;
+                var y = d.y - quad.point.y;
+                var l = Math.sqrt(x * x + y * y)
+                var r = d.radius + quad.point.radius + padding;
+                if (l < r) {
+                    l = (l - r) / l * alpha;
+                    d.x -= x *= l;
+                    d.y -= y *= l;
+                    quad.point.x += x;
+                    quad.point.y += y;
                 }
-                return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
-            });
-        }
+            }
+            return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+        });
     }
+}
+
+function changeData(d) {
+    d3.select('svg').remove();
+    drawMap(d)
+}
