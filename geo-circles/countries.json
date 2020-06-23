@@ -1,4 +1,102 @@
 [{
+        "name": "Afghanistan",
+        "alias": "AFG",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
+        "name": "Albania",
+        "alias": "ALB",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
+        "name": "Algeria",
+        "alias": "ALG",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
+        "name": "Andorra",
+        "alias": "AND",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
+        "name": "Angola",
+        "alias": "AGO",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
+        "name": "Argentina",
+        "alias": "ARG",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
+        "name": "Armenia",
+        "alias": "ARM",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
+    },
+    {
         "name": "Australia",
         "alias": "AUS",
         "population": 22015576,
@@ -11,6 +109,20 @@
         "points": 13,
         "cri_rank": 18,
         "cri_score": 30.33
+    },
+    {
+        "name": "Austria",
+        "alias": "AUT",
+        "population": null,
+        "gdp": null,
+        "age": null,
+        "fm_pop": "",
+        "fm_gdp": "",
+        "fm_age": "",
+        "continent": "",
+        "points": null,
+        "cri_rank": null,
+        "cri_score": null
     },
     {
         "name": "Azerbaijan",
@@ -121,8 +233,8 @@
         "fm_age": "110",
         "continent": "North America",
         "points": 5,
-        "cri_rank": 0,
-        "cri_score": 0
+        "cri_rank": null,
+        "cri_score": null
     },
     {
         "name": "Czech Republic",
@@ -471,8 +583,8 @@
         "fm_age": "66",
         "continent": "Asia",
         "points": 13,
-        "cri_rank": 0,
-        "cri_score": 0
+        "cri_rank": null,
+        "cri_score": null
     },
     {
         "name": "Qatar",
