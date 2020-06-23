@@ -140,7 +140,7 @@ function draw(topo) {
         // console.log(medium)
         // console.log(anotherPivot)
         // map min and max values to be between 0 and 1
-        var colorScale = d3.scale.sqrt()
+        var colorScale = d3.scale.linear()
           // .domain([minValue(),evensmallerPivot, anotherPivot, medium, maxValue()])
           // .range(['white', '#AD3131', '#6F0000', '#4D0000']);
           .domain([minValue(), maxValue()])
