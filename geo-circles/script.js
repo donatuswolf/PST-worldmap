@@ -30,7 +30,7 @@ svg = d3.select('#map')
     .attr('width', width)
     .attr('height', height);
 
-drawMap("gdp");
+drawMap("population");
 
 function drawMap(input) {
     d3.json('coordinates.json', function (coordinates) {
