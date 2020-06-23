@@ -34,3 +34,11 @@ text {
     pointer-events: none;
     text-anchor: middle;
 }
+
+#buttons {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row
+  }

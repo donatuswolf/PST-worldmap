@@ -1,6 +1,8 @@
 <!--Source: http://bl.ocks.org/bycoffe/3230965 -->
 
 <!DOCTYPE html>
+<meta charset="utf-8">
+<title>Climate Justice</title>
 <html>
 
 <head>
@@ -11,9 +13,10 @@
     <div id="map"></div>
 
     <div id="buttons">
+        <button onclick="changeData('population')">Population</button>
         <button onclick="changeData('co-emissions-capita-2017', 'CO2 emissions (tonnes)')">Emission</button>
         <button onclick="changeData('Climate-Risk-Index-2017', 'CRI Rank')">Climate Risk</button>
-        <button onclick="changeData('GDP-per-capita', 'GDP')">GDP</button>
+        <button onclick="changeData('gdp')">GDP</button>
     </div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
